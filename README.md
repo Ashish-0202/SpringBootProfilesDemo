@@ -29,6 +29,7 @@ Two Ways to run our spring boot application jar/war file through command:
     Here the value in the id tag will be used to mention the profile while running the application:
     
     mvn spring-boot:run -Puat
+\
     mvn spring-boot:run -Pdev
 
 @Profile annotation:
